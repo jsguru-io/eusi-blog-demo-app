@@ -1,0 +1,36 @@
+{
+  "name": "eusi-blog-demo-app",
+  "version": "0.0.1",
+  "description": "Blog demo application using EUSI",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --out-dir dist",
+    "build": "parcel build index.html --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsguru-io/eusi-blog-demo-app.git"
+  },
+  "keywords": [
+    "eusi",
+    "headless",
+    "cms",
+    "jsguru"
+  ],
+  "author": "Boris Joskic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsguru-io/eusi-blog-demo-app/issues"
+  },
+  "homepage": "https://github.com/jsguru-io/eusi-blog-demo-app#readme",
+  "devDependencies": {
+    "cssnano": "4.1.4",
+    "node-sass": "4.9.3"
+  },
+  "dependencies": {
+    "brsjs-loader": "1.3.3",
+    "eusi-sdk-browser": "1.1.1",
+    "eusi-sdk-core": "1.2.0",
+    "parcel-bundler": "1.10.2"
+  }
+}
